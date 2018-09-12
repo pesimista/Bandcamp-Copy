@@ -1,0 +1,221 @@
+*
+{
+    margin: 0px;
+    font-family: "Open Sans";
+}
+body
+{
+    color: rgb(25,25,25);
+    margin: 0;
+    background-color: #807b39;
+    background-image: url(back.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3, h3 a, .PaUsarClass
+{
+    line-height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #DAF6FB;
+}
+#leftColumnFooter p
+{
+    font-size:12px;
+    margin: 7px 0px;
+}
+a
+{
+    text-decoration: none;
+    color: #DAF6FB;
+}
+a:hover
+{
+    color: #DAF6FB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+p strong
+{
+    font-size: 16px;
+}
+p span
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+p, #Songs
+{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.discography li img
+{
+    width: 120px;
+}
+.discography li
+{
+    font-size: 10px;
+    margin: 7px 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+}
+.discography
+{
+    list-style: none;
+    padding: 0px;
+}
+#topBar
+{
+    border-top: 5px solid rgb(128, 128, 128);
+    height: 45px;
+    min-width: 1035px;
+    background-color: #ececec;
+    margin: 0px auto;
+}
+#container
+{
+    margin: 0px auto;
+    width: 975px;
+    color: #1DA0C3;
+}
+.sideList
+{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+.leftList
+{
+    float: left;
+}
+.rightList
+{
+    float: right;
+}
+#topBar ul li
+{
+    padding: 10.5px 5px;
+    font-size: 16px;
+}
+#topBar ul li:hover
+{
+    color: rgb(25,25,25);
+    background-color: #c3c3c3;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    cursor: pointer;
+}
+#SearchBar:hover
+{
+    background-color: transparent !important;
+    border-bottom: 0px !important;
+    cursor:default !important;
+}
+#logo
+{
+    margin: 6px 5px;
+    background-color: #0074d9;
+    width: 15px;
+    height: 10px;
+    transform: skewX(-40deg);
+}
+#fixedWidth
+{
+    margin: 0px auto;
+    margin-bottom: 40px;
+    max-width: 915px;
+    padding: 35px 30px;
+    padding-bottom: 40px;
+    background-color: #3b4254ca;
+    /* background-color: #3b4254; */
+    color: #DAF6FB;
+}
+#mainTwoColumns
+{
+    width: 756px;
+    float: left;
+}
+#leftColumn
+{
+    width: 376px;
+    padding: 0px
+}
+#rightColumn
+{
+    width: 120px;
+    padding: 0px;
+}
+#middleColumn
+{
+    width: 350px;
+    padding: 0px
+}
+#follow
+{
+    width: 120px;
+    height: 30px;
+    border: 2px solid gray;
+    background-color: #5a647e;
+    border-radius: .4em;
+    margin: 0px 0px 1em;
+}
+#almostFooter
+{
+    clear: both;
+    margin-top: 30px;
+}
+#almostFooter h3
+{
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#almostFooter span
+{
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #DAF6FB;
+}
+#class /*Barra de reproduccion*/
+{
+    height: 52px;
+    width: 376px;
+    background-color: #3B4254;
+    cursor: pointer;
+}
+.thing *, .thing
+{
+    margin: 7px 0px;
+}
+.PaUsarClass
+{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25em;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    padding: 0px;
+}
+.PaUsarClass:hover, h3 a:hover
+{
+    color: #DAF6FB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#middleColumn ul li
+{
+    margin-top: 15px;
+    margin-right: 20px; 
+}
+#Songs li a
+{
+    padding-right: 6px;
+}
+#BadCopy:hover
+{
+    text-decoration: none;
+}
