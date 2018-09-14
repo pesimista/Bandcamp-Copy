@@ -12,7 +12,7 @@
             <ul class="leftList sideList">
                 <li><a id="BadCopy" href="https://elijahwho.bandcamp.com/album/dont-make-me-cry-2" style="display:flex; color: rgb(25,25,25);"><div id="logo"></div>BadCopy</a></li>
                 <li>discover</li>
-                <li id="SearchBar"><input type="text"></li>
+                <li id="SearchBar"><input type="text" placeholder="                   search"></li>
             </ul>
         <ul class="rightList sideList"> 
             <li>sing up</li>
@@ -26,10 +26,13 @@
     <div id="fixedWidth">
         <div id="mainTwoColumns">
             <div class="leftList" id="leftColumn">
-                <h2>don't make me cry</h2>
-                <h3>By <a href="https://twitter.com/elijahwhomusic">elijah who</a></h3>
+                <h2 id="AlbumName">vertigo</h2>
+                <h3>By <a class="ArtistName" href="https://twitter.com/iameden">EDEN</a></h3>
                 <div class="thing">
-                    <div id="class"></div>
+                    <div id="MusicPlayer">
+                        <audio style="width: 376px;" id="Player" src="elijah who - don't make me cry - 01 seaside.mp3" controls >
+                        </audio>
+                    </div>
                     <button class="PaUsarClass" type="button">
                         <span>Digital Album</span>
                     </button>
@@ -48,15 +51,8 @@
                <div id="info">
                     <p>
                         <ol id="Songs">
-                            <li><a hrft="">seaside</a> 02:00</li>
-                            <li><a hrft="">i used to be so inlove</a> 02:03</li>
-                            <li><a hrft="">nod off</a> 02:13</li>
-                            <li><a hrft="">my love</a> 02:26</li>
-                            <li><a hrft="">don't make me cry</a> 02:00</li>
-                            <li><a hrft="">sleep on it</a> 01:57</li>
-                            <li><a hrft="">loving you</a> 02:09</li>
                         </ol>
-                        <span style="font-size:12px;">released December 15, 2017</span>
+                        <span id="releasedDate" style="font-size:12px;">released </span>
                     </p>
                </div>
             </div>
@@ -66,15 +62,14 @@
                     <li><button type="button" class="PaUsarClass" style="font-size:12px;font-weight:bold;">Share/Embed</button></li>
                     <li><button type="button" class="PaUsarClass" style="font-size:12px; font-weight:bold;">Wishlist</button></li>
                 </ul>
-                <h2>Things</h2>
+                <h2>things</h2>
             </div>
         </div>
         <div class="rightList" id="rightColumn">
-            <img src="Covers/artist.jpg" width="120">
+            <img src="Covers/Artist.jpg" width="120">
             <p>
-
-                <strong>elijah who</strong><br>
-                <span>Portland, Oregon </span>
+                <strong class="ArtistName">EDEN</strong><br>
+                <span class="place">Dublin, Ireland</span>
             </p>
             <button class="PaUsarClass" id="follow" type="button">Follow</button>
             <p>
@@ -83,30 +78,31 @@
             <button class="PaUsarClass" type="button">discography</button>
             <ul class="discography">
                 <li><a href=""> <img src="Covers/dontmakemecry.jpg">Don't make me cry</a><br>
-                Dec 2017</li>
-                <li><a href=""> <img src="Covers/tired.jpg">I'm tired of feeling this way</a><br>
-                Sep 2017</li>
-                <li><a href=""> <img src="Covers/gentleBoy.jpg">Gentle Boy</a><br>
-                Mar 2017</li>
-                <li><a href=""> <img src="Covers/NewFeelings.jpg">New Feelings</a><br>
-                Jan 2017</li>
+                    Dec 2017</li>
+                    <li><a href=""> <img src="Covers/tired.jpg">I'm tired of feeling this way</a><br>
+                    Sep 2017</li>
+                    <li><a href=""> <img src="Covers/gentleBoy.jpg">Gentle Boy</a><br>
+                    Mar 2017</li>
+                    <li><a href=""> <img src="Covers/NewFeelings.jpg">New Feelings</a><br>
+                    Jan 2017</li>
             </ul>
             <span>Contact / Help</span> 
             <div id="leftColumnFooter">
-            <p><a href="https://twitter.com/elijahwhomusic">Contact elija who</a></p> 
+            <p><a id="Contact" href="">Contact elija who</a></p> 
             <p><a href="">Streaming and Download help</a></p>                
             <p>Made by <a href="https://twitter.com/MezzMar_">MezzMar_</a></p>
                            
             </div>
         </div>
         <div style="clear: both;"></div>
-	<div id="almostFooter">
-                <h3>Tags</h3>
-                <span>A copy of BandChamp</span>
-		<span>I made to learn html & css</span><br>
-		<a href="https://elijahwho.bandcamp.com/album/dont-make-me-cry-2"><button class="PaUsarClass" type="button" style="font-size: 14px;">Go to the actual Bandcamp Page</button></a>
-            </div>
+        <div id="almostFooter">
+            <h3>Tags</h3>
+            <a href="">Supposed</a>
+            <a href="">to take you somewhere</a>
+        </div>
     </div>
-</div>  
+</div> 
+    <!-- <script type="text/javascript" src="songs.js"></script> -->
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
