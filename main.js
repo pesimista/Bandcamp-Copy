@@ -8,7 +8,7 @@ var ArtistName = document.getElementsByClassName("ArtistName");
 var AlbumName = document.getElementById("AlbumName");
 var place = document.querySelector(".place");
 
-(function{
+(function(){
     Thing.albums[0].song.forEach(element => {
         var li =  document.createElement("li");
         var a = document.createElement("a");
@@ -22,10 +22,8 @@ var place = document.querySelector(".place");
     Date.textContent += Thing.albums[0].release;
     for(var item of ArtistName)
     {
-        console.log(item);
         item.textContent = Thing.name;
     }
-    console.log(ArtistName);
     ArtistName[0].setAttribute("href", Thing.twitter);
     AlbumName.textContent = Thing.albums[0].name;
     place.textContent = Thing.location;
