@@ -13,7 +13,7 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
-h3, h3 a, .PaUsarClass
+h3, h3 a, .SpecialButton
 {
     line-height: 50px;
     font-size: 14px;
@@ -180,7 +180,7 @@ p, #Songs
 }
 #MusicPlayer /*Barra de reproduccion*/
 {
-    height: 52px;
+    height: 120px;
     width: 376px;
     /* background-color: #3B4254;
     cursor: pointer; */
@@ -189,7 +189,7 @@ p, #Songs
 {
     margin: 7px 0px;
 }
-.PaUsarClass
+.SpecialButton
 {
     font-size: 16px;
     font-weight: bold;
@@ -199,7 +199,7 @@ p, #Songs
     text-decoration: none;
     padding: 0px;
 }
-.PaUsarClass:hover, h3 a:hover
+.SpecialButton:hover, h3 a:hover
 {
     color: #DAF6FB;
     text-decoration: underline;
