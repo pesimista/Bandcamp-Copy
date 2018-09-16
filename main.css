@@ -40,10 +40,14 @@ p strong
 {
     font-size: 16px;
 }
-p span
+p span, #releasedDate
 {
     font-size: 14px;
     line-height: 20px;
+}
+#releasedDate
+{
+     style="font-size:12px;
 }
 p, #Songs
 {
